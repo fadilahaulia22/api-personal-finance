@@ -13,10 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class TransactionDto {
-    // @NotNull
-    // @Size(max = 36)
-    //  String id;
-
+  
     @NotNull
     @Size(max = 15)
      String accountNumber;
